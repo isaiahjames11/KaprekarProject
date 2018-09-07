@@ -26,6 +26,7 @@ int isKaprekar(int n) {
 
   if(n < 1) {
     return 0;
+    //changed the return to 0
   }
 
   int i;
@@ -33,8 +34,9 @@ int isKaprekar(int n) {
   long square = n * (long) n;
   //compute the number of digits of the square
   int numDigits = (int) log10(square) + 1;
-  //test commit
+  //changed the equation n to square
   long modulus = 1;
+  //corrected the spelling of modulus
   long first, second;
 
   //for each possible "split" of the square...
