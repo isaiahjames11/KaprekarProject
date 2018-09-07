@@ -33,6 +33,7 @@ int isKaprekar(int n) {
   long square = n * (long) n;
   //compute the number of digits of the square
   int numDigits = (int) log10(square) + 1;
+  //test commit
   long modulus = 1;
   long first, second;
 
